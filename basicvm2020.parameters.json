@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": "stacjabslab2020test"
+        },
+        "VMname": {
+            "value": "vmjlb2020test" 
+        },
+        "ResourceTags": {
+            "value": {
+                "env": "jabslab2020test",
+                "owner": "Jabed"
+            }
+        },
+        "pipname": {
+            "value": "jabslab2020test" 
+        },
+        "vmusername": {
+            "value": "Adminjabs1" 
+        },
+        "dnsname": {
+            "value": "demodeployjabs1"
+        },
+        "nsgName": {
+            "value": "nsgjabslab2020test" 
+        },
+        "vnetName": {
+            "value": "vnetjabslab2020test" 
+        },
+        "subnetName": {
+            "value": "subjabslab2020test" 
+        },
+        "nicName": {
+            "value": "nic1jabslabs2020test" 
+        },
+        "osDiskname": {
+            "value": "jabslab2020testbootdisk"
+        },
+        "vmSize": {
+            "value": "Standard_D2_v2"
+        },
+        "vnetPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "vnetsubPrefix": {
+            "value": "10.0.0.0/24" 
+        }
+    }
+}
